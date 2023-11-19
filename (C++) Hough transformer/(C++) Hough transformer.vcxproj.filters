@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="sources\HoughCircleTransformer.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\HoughLineTransformer.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\HoughTransformer.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\ImageLoader.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sources\HoughCircleTransformer.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\HoughLineTransformer.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\HoughTransformer.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\ImageLoader.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{12bc84dd-c9b6-4744-9c0f-dc13b9d5765c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{427367a5-e851-4cba-86f6-d3a6f07b57dd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
